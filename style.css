@@ -1,0 +1,270 @@
+html, body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 14px; 
+  z-index; 99999999999; 
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left; 0; 
+  z-index: 9999999999;
+  width: 100%;
+  background-color: #454545;
+  text-align: center;
+  border: 2px; 
+  border-radius: 0 0 5px 5px; 
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+li {
+  display: inline;
+  vertical-align: middle;
+  font-size: 15px;
+}
+
+#bar {
+  display: inline-block;
+  padding: 8px;
+  text-decoration: none;
+  text-align: center; 
+  color: #fff; 
+  background-color: #301934; 
+  border-radius: 5px; 
+  font-size: 15px; 
+}
+
+#bar1 {
+  display: inline-block;
+  padding: 8px;
+  text-decoration: none;
+  text-align: center; 
+  color: #fff; 
+  border-radius: 5px; 
+}
+
+.content {
+  margin-top: -20px;
+}
+
+img {
+  max-width: 95%;
+  height: auto;
+  border: 2px solid white;
+  border-radius: 7px;  
+}
+
+#link {
+  color: #7cfc00;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  color: #4479e1;
+  padding: 9px;
+  margin-left: 9px;
+  border: none; 
+}
+
+.icon img {
+  height: 24px;
+  margin-right: 5px;
+  border-radius: 100%;
+  border-color: gray; 
+}
+
+.icon a {
+  text-decoration: none;
+  color: #008ad3;
+  margin-left: 2px;
+}
+
+.jarak {
+  padding-top: 30px;
+}
+
+.note {
+  color: #008ad3;
+  padding-left: -2px;
+  background-color: none; 
+}
+
+h3 {
+  text-align: center;
+  color: purple;
+  font-size: 30px; 
+  margin-top: -40px;
+  margin-bottom: 0px: 
+}
+
+.set { 
+  color: yellow; 
+}
+
+.b { 
+   color: #F73A3A; 
+   border: none; 
+   font-size: 18px; 
+   background-color: black; 
+}
+
+b { 
+  border: 0px solid gray; 
+  border-height: 1px; 
+  background-color: gray;  
+  border-radius: 2px; 
+}
+
+.isi { 
+   font-size: 18px;
+   color: yellow; 
+}
+
+.gif { 
+     border: 0px; 
+     padding-top: 20px;
+}
+
+.donasi {
+  display: flex;
+  align-items: center;
+  color: #fff; 
+  padding: 9px;
+  margin-left: 9px;
+  border: none; 
+  font-size: 15px; 
+}
+
+.fb { 
+   border: none; 
+   padding: 8px; 
+}
+
+.sup { 
+   font-weight: bold; 
+}
+
+.donasi img {
+  height: 30px;
+  width: 30px; 
+  margin-right: 2px;
+  border-radius: 10px; 
+}
+
+.donasi img:hover {
+  border: none; 
+}
+
+.ext {
+  width: 50px;
+  height: 50px; 
+  padding-top: 0;
+}
+
+.ext img {
+  border: 1px solid; 
+  padding: 10px;
+}
+
+.content {
+  padding-top: 10%
+}
+
+.panah { 
+   color: red; 
+   font-size: 40px; 
+}
+
+.dana  { 
+   border: none; 
+   padding: 5px; 
+   border: none; 
+}
+
+img[src^="http://xtgem.com"],
+img[src^="https://xtgem.com"] {
+  width: 10px; 
+  height: 10px; 
+}
+
+.arrow { 
+   color: cyan; 
+   font-size: 30px; 
+   margin-right: 70px;
+   font-weight: bold; 
+}
+
+
+h1 { 
+   color: black; 
+}
+.wo-site-feed-link {
+  visibility: hidden; 
+}
+
+
+a[href="https://s.wodemo.net/admin"],
+a[href="https://wodemo.net/reg?return_to=https://tachiyomi.wodemo.net"],
+a[href="https://https://s.wodemo.net/site/tachiyomi"],
+ {
+        display: none;
+        text-decoration: none; 
+    }
+
+.logo {
+  width: 50px;
+  height: 50px; 
+  padding-top: 0;
+}
+
+   .custom-icon {
+       background-color: #008ad3;
+       border-radius: 2px;
+       padding: 2px;
+       color: black;
+       font-size: 13px; 
+ }
+
+    #imageContainer {
+      position: relative;
+      height: 300px; /* Sesuaikan dengan tinggi gambar */
+      overflow: hidden;
+    }
+
+    #movingImage {
+      position: absolute;
+      top: 0;
+      left: 0;
+      animation: moveImage 1.3s linear infinite; /* Sesuaikan durasi dan gaya animasi */
+    }
+
+    @keyframes moveImage {
+      0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(20%);
+      }
+      100% {
+        transform: translateY(0%);
+      }
+    }
+ #imageContainer img { 
+    margin-left: 41%; 
+    margin-top: 45%; 
+    margin-bottom: 0; 
+    border: none; 
+    width: 20%; 
+    height: 20%; 
+}
